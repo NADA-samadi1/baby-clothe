@@ -1,0 +1,141 @@
+
+:root {
+  --font-main: "Inter", sans-serif;
+  --colo-primary: #db4444;
+  --colo-dark-1: #000000;
+  --colo-dark-2: #7d8184;
+  --colo-white-1: #ffffff;
+  --colo-white-2: #f5f5f5;
+  --color-green: #00d656;
+}
+
+/* * {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+} */
+html {
+  font-size: 10px;
+  /* 1 rem 10px */
+}
+body {
+  font-family: var(--font-main);
+  font-size: 1.6rem;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+}
+.container {
+  max-width: 114rem;
+  margin: 0 auto;
+  padding: 0rem 1rem;
+}
+/* .w-6 {
+  width: 2rem;
+  height: 2rem;
+}
+.h-6 {
+  fill: rgb(239, 140, 1);
+} */
+/* top_nav */
+.top_nav {
+  width: 100%;
+  height: 4rem;
+  background-color: var(--colo-dark-2);
+}
+.top_nav_container {
+  /* width: 100%;
+  height: 100%; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.top_nav_wrapper {
+  display: flex;
+  color: var(--colo-white-1);
+}
+.tap_nav_p {
+  font-size: 1.4rem;
+  font-weight: 400;
+}
+.top_nav_link {
+  margin-left: 1rem;
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: var(--colo-white-1);
+}
+/* navbaar */
+.nav {
+  /* width: 100%;
+  height: 8rem; */
+  border-bottom: 1px solid var(--colo-dark-2);
+}
+.nav_container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav_list {
+  display: flex;
+}
+.nav_items {
+  display: flex;
+}
+.nav_logo {
+  font-size: 2.2rem;
+  font-weight: 800;
+  color: var(--colo-dark-1);
+}
+.nav_item {
+  margin: 0rem 0.5rem;
+}
+.nav_link {
+  padding: 0.6rem;
+  color: var(--colo-dark-1);
+}
+.nav_form {
+  padding: 0.8rem;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  background-color: var(--colo-white-2);
+  display: flex;
+  align-items: center;
+}
+.nav_input {
+  padding: 0.4rem;
+  background-color: transparent;
+  outline: none;
+  border: none;
+}
+.nav_search {
+  cursor: pointer;
+  width: 20px;
+}
+.nav_items {
+  display: flex;
+  align-items: center;
+}
+.nav_heart {
+  margin-left: 1rem;
+  cursor: pointer;
+  width: 20px;
+}
+.nav_cart {
+  margin-left: 1rem;
+  cursor: pointer;
+  width: 35px;
+}
+.nav_logout{
+    margin-left: 1rem;
+    cursor: pointer;
+    width: 20px;
+    margin-top: 20px;
+}
+span{
+  margin-right: 5px;
+}
